@@ -1,0 +1,180 @@
+
+body{
+
+    background-image: url('../Images/sunset_time_field.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.header{
+    position: fixed;
+    width: 98%;
+    margin: 10px;
+    height: 80px;
+    border: rgba(194, 81, 81, 0.94);
+    border-style: solid;
+    background-color: rgba(92, 117, 94, 0.94);
+    z-index: 3;
+}
+#todayDate{
+    display: flex;
+    font-family: Andalus;
+    color: #FEFCB2;
+    font-size: 35px;
+    text-align: center;
+    margin-left: -400px;
+    float: left;
+
+
+}
+
+
+nav{
+
+    position: fixed;
+    display:flex;
+    flex-wrap:wrap;
+    top: 32px;
+    left: 32%;
+    z-index: 4;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 25px;
+    text-align: center;
+    background-color: rgb(189, 185, 185);
+    color:#464141;
+    margin:0;
+    font-family:sans-serif;
+}
+nav a:hover {
+    background-color: #777777;
+    color:#ffffff;
+}
+
+
+#clock {
+    display: flex;
+    font-family: Andalus;
+    color: #FEFCB2;
+    font-size: 56px;
+    text-align: center;
+    margin-left: 200px;
+    float: right;
+
+}
+
+
+
+.about-me{
+    position: relative;
+    display: inline;
+    margin: auto;
+    margin-bottom: 10em;
+    top: 100px;
+    width: 45%;
+    float: right;
+    text-indent: 50px;
+    z-index: 1;
+}
+
+.about{
+    font-weight: bold;
+    font-family: Algerian;
+    font-style: oblique;
+    font-size: 50px;
+    color: red;
+}
+.p1{
+    display: block;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: 70px;
+    line-height: 1.5em;
+    font-family: "Copperplate Gothic Bold";
+    font-size: 30px;
+    color: #fffffa;
+}
+
+.main-images{
+    display: inline;
+    position: relative;
+    top: 100px;
+    margin-left: 250px;
+    margin-right:100px;
+    float: left;
+
+}
+.map-pic{
+    position: absolute;
+    display: flex;
+    width: 700px;
+    margin-left: -150px;
+
+    left: 5%;
+    z-index: 0;
+
+    border-style: solid;
+    border-color: red;
+
+
+}
+
+.my-pic{
+    position: absolute;
+    display: flex;
+    width: 230px;
+    height: 500px;
+    margin-left: 100px;
+    z-index: 1;
+
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    font-family: "Diwani Bent";
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    width: 98%;
+    margin: 10px;
+    height: 80px;
+    border-radius: 5%;
+    float: bottom;
+
+    background-color: #ece9b2;
+    z-index: 3;
+
+}
+.phone-icon{
+    position: relative;
+    display: inline;
+    width: 60px;
+    height: 60px;
+    margin-top: 13px;
+    margin-left: 3%;
+    z-index: 3;
+}
+.email-icon{
+    position: relative;
+    display: inline;
+    width: 60px;
+    height: 60px;
+    margin-top: 13px;
+    margin-left: 15%;
+    z-index: 3;
+}
+.phone-number{
+    margin-top: 15px ;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.email-text{
+    margin-top: 15px;
+    margin-left: 8px;
+}
